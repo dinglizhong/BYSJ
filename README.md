@@ -2,7 +2,7 @@ Ubuntu22.04
 
 CUDA11.8
 
-SAM开源地址：https://yuval-alaluf.github.io/SAM。原项目采用的训练数据集为 FFHQ，测试数据集为 CelebA-HQ，而本人扩充的质量较高的亚洲人脸数据集筛选自 AFAD，AFAD 数据集包含亚洲人脸图像超过160000张，其数据质量良莠不齐，包含很多难以使用的噪声，本人筛选的质量较高的部分 AFAD 数据总量达24000多张，提取方式：链接：https://pan.baidu.com/s/1SfeghxqbWnxbhyBSJqHHzA 提取码：AFAD；本人将这些亚洲人面部特征图像数据扩充到 FFHQ 中并全部投入 SAM 进行模型的重新训练，得到了新的对亚洲人面部特征更加适应，身份保护能力更强的权重文件 best_model.pt，这个权重文件应该置于 experiment_01/checkpoints 目录之下，提取方式：
+SAM开源地址：https://yuval-alaluf.github.io/SAM。原项目采用的训练数据集为 FFHQ，测试数据集为 CelebA-HQ，而本人扩充的质量较高的亚洲人脸数据集筛选自 AFAD，AFAD 数据集包含亚洲人脸图像超过160000张，其数据质量良莠不齐，包含很多难以使用的噪声，本人筛选的质量较高的部分 AFAD 数据总量达24000多张，提取方式：链接：https://pan.baidu.com/s/1SfeghxqbWnxbhyBSJqHHzA 提取码：AFAD；本人将这些亚洲人面部特征图像数据扩充到 FFHQ 中并全部投入 SAM 进行模型的重新训练，得到了新的对亚洲人面部特征更加适应，身份保护能力更强的权重文件 best_model.pt，这个权重文件应该置于 experiment_01/checkpoints 目录之下，提取方式：链接：https://pan.baidu.com/s/1ZLNO1-gUwm6ecIdIT_PnLg 提取码：SAMP。
 
 本人联系方式：dinglizhong666@yeah.net，如果对亚洲人脸数据集有需求，或者其他技术问题，欢迎交流！
 
